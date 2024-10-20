@@ -1,0 +1,83 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.idea/
+*.iws
+*.iml
+*.ipr
+
+
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# User-specific configuration files
+*.idea/workspace.xml
+*.idea/tasks.xml
+*.idea/usage.statistics.xml
+*.idea/dictionaries
+*.idea/shelf/
+
+# Gradle project-specific files
+.gradle/
+build/
+
+# Maven project-specific files
+target/
+
+# Log files
+*.log
+
+# Compiled source files (Java, Kotlin, etc.)
+*.class
+*.jar
+*.war
+*.ear
+
+# Generated files
+out/
+bin/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+
+# JetBrains "indexing" files
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/profiles_settings.xml
+
+# Exclude IntelliJ settings and related files
+.idea/vcs.xml
+
+# Exclude .env files for environment variables (optional)
+.env
+
+# Java bytecode (optional if Java project)
+*.class
