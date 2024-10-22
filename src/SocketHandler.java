@@ -4,7 +4,6 @@ import java.util.Map;
 
 public class SocketHandler implements Runnable{
     private final Socket socket;
-    private Handler defaultHandler;
     private final Map<String, Map<String, Handler>> handlers;
 
     public SocketHandler(Socket socket, Map<String, Map<String, Handler>> handlers){
@@ -56,7 +55,7 @@ public class SocketHandler implements Runnable{
                 }
             }
         } catch (IOException e)  {
-            e.printStackTrace();
+            System.out.println(e.toString());
         } finally  {
             try  {
                 if (out != null)  {
@@ -67,7 +66,7 @@ public class SocketHandler implements Runnable{
                 }
                 socket.close();
             } catch (IOException e)  {
-                e.printStackTrace();
+                System.out.println(e.toString());
             }
         }
 
